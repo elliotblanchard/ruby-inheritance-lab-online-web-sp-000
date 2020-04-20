@@ -10,4 +10,8 @@ class Student < User
     @knowledge << element
   end
 
+  def knowledge
+    @knowledge
+  end
+
 end
